@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is a backend Postgres SQL backend for BlogList application.It handles data storage and exposes REST APIs that support the frontend features.",
+  "license": "MIT",
+  "author": "RZ Rakib",
+  "type": "commonjs",
+  "main": "cli.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.3",
+    "@stylistic/eslint-plugin": "^5.9.0",
+    "eslint": "^9.39.3",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.3.0",
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "pg": "^8.19.0",
+    "sequelize": "^6.37.7"
+  }
+}
