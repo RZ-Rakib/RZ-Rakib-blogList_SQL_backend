@@ -7,6 +7,8 @@
   "type": "commonjs",
   "main": "cli.js",
   "scripts": {
+    "start": "node cli.js",
+    "dev": "nodemon cli.js",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +16,6 @@
     "@eslint/js": "^9.39.3",
     "@stylistic/eslint-plugin": "^5.9.0",
     "eslint": "^9.39.3",
-    "eslint-plugin-react": "^7.37.5",
     "globals": "^17.3.0",
     "nodemon": "^3.1.14"
   },

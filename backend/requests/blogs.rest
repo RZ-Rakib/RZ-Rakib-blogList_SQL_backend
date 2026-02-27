@@ -1,0 +1,20 @@
+### create a new blog
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+
+# {
+#   "author": "Rakib Zaman",
+#   "url": "www.testing.com",
+#   "title": "first blog",
+#   "likes": 2
+# }
+{
+  "author": "Hazrat Muhammad (S)",
+  "url": "www.prophet.com",
+  "title": "Holy Quran",
+  "likes": 123
+}
+
+### delete a blog
+DELETE http://localhost:3001/api/blogs/3
+Content-Type: application/json
