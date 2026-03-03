@@ -9,12 +9,16 @@ Content-Type: application/json
 #   "likes": 2
 # }
 {
-  "author": "Hazrat Muhammad (S)",
-  "url": "www.prophet.com",
+  "author": "Allahu Akbar",
+  "url": "www.god.com",
   "title": "Holy Quran",
-  "likes": 123
+  "likes": 111
 }
 
 ### delete a blog
 DELETE http://localhost:3001/api/blogs/3
+Content-Type: application/json
+
+### get all blogs
+GET http://localhost:3001/api/blogs
 Content-Type: application/json
