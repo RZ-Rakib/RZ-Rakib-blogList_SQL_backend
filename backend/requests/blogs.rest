@@ -22,3 +22,11 @@ Content-Type: application/json
 ### get all blogs
 GET http://localhost:3001/api/blogs
 Content-Type: application/json
+
+### update like of a blog
+PUT http://localhost:3001/api/blogs/4
+Content-Type: application/json
+
+{
+  "likes": 333
+}
