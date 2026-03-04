@@ -2,21 +2,21 @@
 POST http://localhost:3001/api/blogs
 Content-Type: application/json
 
-# {
-#   "author": "Rakib Zaman",
-#   "url": "www.testing.com",
-#   "title": "first blog",
-#   "likes": 2
-# }
 {
-  "author": "Allahu Akbar",
-  "url": "www.god.com",
-  "title": "Holy Quran",
-  "likes": 111
+  "author": "Gorilla",
+  "url": "www.testing.com",
+  "title": "second blog",
+  "likes": 5
 }
 
+# {
+#   "author": "Allahu Akbar",
+#   "title": "Holy Quran",
+#   "likes": 111
+# }
+
 ### delete a blog
-DELETE http://localhost:3001/api/blogs/3
+DELETE http://localhost:3001/api/blogs/2
 Content-Type: application/json
 
 ### get all blogs
@@ -24,7 +24,7 @@ GET http://localhost:3001/api/blogs
 Content-Type: application/json
 
 ### update like of a blog
-PUT http://localhost:3001/api/blogs/4
+PUT http://localhost:3001/api/blogs/6
 Content-Type: application/json
 
 {
